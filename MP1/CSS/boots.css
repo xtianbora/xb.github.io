@@ -1,0 +1,100 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.padding{
+    padding:80px 0;
+}
+
+.landing-text .row img{
+    height: 200px;
+    width: 220px;
+    border-radius: 40%;
+    border: 5px solid rgb(255, 255, 255);
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+}
+
+#intro {
+    background: url(/Images/bg.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#welcome{
+    font-size: 4em;
+    color: orange;
+}
+#welcome2{
+    font-size: 2em;
+    color: white;
+}
+
+#fixed{
+    background: url(/Images/bg.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#first h1{
+    font-size: 5em;
+}
+#aboutme{
+    padding: 10px;
+}
+
+footer{
+    width:100%;
+    background-color: rgb(78, 77, 77);
+    padding: 5% 5% 10% 5%;
+    color:white;
+}
+.fa-brands{
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.fa-brands:hover{
+    color:rgb(138, 138, 156);
+    text-decoration: none;
+}
+#contresume{
+    justify-content: center;
+
+}
+#skills{
+    background: url(/Images/bg.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+#scrollup{
+    position: fixed;
+    bottom: 30px;
+    right:30px;
+    z-index: 9;
+}
+.card-img-top{
+    height:200px;
+}
